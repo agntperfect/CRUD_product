@@ -1,0 +1,187 @@
+:root {
+    --color-primary: #7390ec;
+    --color-danger: #ff7782;
+    --color-success: #41f1b6;
+    --color-warning: #ffbb55;
+    --color-white: #ffffff;
+    --color-info-dark: #7d8da1;
+    --color-info-light: #dce1eb;
+    --color-dark: #363949;
+    --color-light: #848bc82e;
+    --color-primary-variant: #111e88;
+    --color-dark-variant: #677483;
+    --color-background: #f6f6f9;
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 0.8rem;
+    --border-radius-3: 1.2rem;
+    --card-padding: 1.8rem;
+    --padding-1: 1.2rem;
+    --box-shadow: 0 2rem 3rem var(--color-light);
+    --color-dark-blue: #0D19A3;
+    --color-light-blue: #338BEB;
+    --color-yellow: #f3d250;
+    --color-dark-black: #19181A;
+    --color-reddish: #F4A896;
+    --color-blueish: #358597;
+    --color-pinkish-red: #ef476f;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+form {
+    display: grid;
+    justify-content: start;
+}
+
+input,
+textarea {
+    display: flex;
+}
+
+.add-product {
+    display: block;
+    position: absolute;
+    z-index: 100;
+    right: 7px;
+    padding: 12px;
+    border: transparent;
+    background-color: var(--color-light-blue);
+    color: #fff;
+}
+
+.product-image {
+    position: relative;
+    height: 70px;
+}
+.cn-center {
+    position: relative;
+    overflow-x: hidden;
+    display: grid;
+}
+
+.td-img {
+    position: relative;
+    height: 50px;
+    border: transparent;
+}
+
+.displayed-img {
+    display: flex;
+    height: 150px;
+    margin: 10px;
+}
+
+#myInput {
+    position: relative;
+    background-image: url('css/searchicon.png'); 
+    background-position: 10px 12px; 
+    background-repeat: no-repeat; 
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #ddd; 
+    margin-bottom: 5px; 
+}
+
+table {
+    text-align: center;
+    width: 100%;
+    font-family: sans-serif;
+    table-layout: auto;
+    border-collapse: collapse;
+    border: transparent;
+    width: 100%;
+}
+
+table tr:nth-child(even) {
+    background-color: #cccccc;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+img {
+    border: transparent;
+    outline: transparent;
+}
+
+td {
+    text-align: center;
+    border: transparent;
+}
+
+th {
+    background-color: #4a4a4a;
+    color: white;
+    text-align: center;
+}
+
+.td-actions button {
+    display: block;
+    width: 50px;
+    margin: 2px 0 0 0;
+}
+
+.add-product {
+    font-size: 16px;
+}
+
+.add-product span {
+    font-size: 18px ;
+}
+.item-stock {
+    width: 30px;
+    text-align: center;
+}
+
+.td-stock {
+    text-align: center;
+}
+
+.item-rating {
+    text-align: center;
+    width: 40px;
+}
+
+.td-rate {
+    text-align: center;
+}
+
+.item-name{
+    width: 200px;
+    text-align: center;
+
+}
+
+.item-id {
+    width: 30px;
+}
+
+.td-id {
+    width: 30px;
+    text-align: center;
+}
+
+.item-desc {
+    width: 150px;
+}
+
+.td-desc {
+    width: 700px;
+}
+
+.td-code {
+    width: 150px;
+}
+
+.td-price {
+    width: 50px;
+}
+
+.td-actions {
+    width: 70px;
+}
